@@ -1,0 +1,208 @@
+/* Main stylesheet for my portfolio website */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Banner at the top of every page */
+.banner {
+    background-color: #14324f;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.banner p {
+    margin: 5px 0 0 0;
+    color: #cfd8e3;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #1f4e79;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav a:hover {
+    background-color: #163a5c;
+}
+
+nav a.active {
+    background-color: #f0a500;
+    color: #14324f;
+    font-weight: bold;
+}
+
+/* Main content area */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px 35px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1f4e79;
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #14324f;
+}
+
+/* Home page */
+.welcome {
+    overflow: hidden;
+}
+
+.profile-pic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #1f4e79;
+    margin-right: 25px;
+    object-fit: cover;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1f4e79;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #f0a500;
+    color: #14324f;
+}
+
+/* About page */
+.about-pic {
+    float: right;
+    width: 180px;
+    border: 3px solid #1f4e79;
+    border-radius: 6px;
+    margin: 0 0 15px 20px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+th, td {
+    border: 1px solid #c5ccd4;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5f8;
+}
+
+/* Projects page */
+.project {
+    border-bottom: 1px dashed #c5ccd4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 320px;
+    border-radius: 6px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Contact page */
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #b0b8c1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 9px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.submit-btn {
+    background-color: #1f4e79;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Gallery page */
+.gallery img {
+    width: 280px;
+    height: 190px;
+    margin: 8px;
+    border-radius: 6px;
+    border: 2px solid #ddd;
+    object-fit: cover;
+}
+
+.gallery figure {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Footer on every page */
+footer {
+    background-color: #14324f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
